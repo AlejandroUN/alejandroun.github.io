@@ -4995,10 +4995,24 @@ Created using IcoMoon - icomoon.io
     transform: translateY(-50%); } }
 
 /* Images Gallery Style*/
+
+.gallery .cc-porfolio-image {
+  height: 280px; /* Ensure consistent height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px; /* Add vertical spacing */
+}
+
 .gallery .cc-porfolio-image figure {
+  
   position: relative;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  height: 100%; /* Ensures the figure fills the container */
+ }
 
 .gallery .cc-porfolio-image figure img {
   position: relative;
